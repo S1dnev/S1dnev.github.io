@@ -1,0 +1,133 @@
+.head-buttom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  @include tablet-width {
+    justify-content: end;
+  }
+}
+
+.head-buttom__box-outer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 98px;
+  margin-right: 64px;
+
+  @include tablet-width {
+    margin-top: 82px;
+    margin-right: 30px;
+  }
+
+  @include mobile-width {
+    margin-top: 80px;
+    margin-right: 0;
+  }
+}
+
+.head-buttom__city {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: end;
+  margin-bottom: 25px;
+  margin-right: 43px;
+
+  @include tablet-width {
+    margin-bottom: 15px;
+    font-size: 34px;
+    margin-right: 0px;
+  }
+
+  @include mobile-width {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+}
+
+.head-buttom__button {
+  display: block;
+  width: 230px;
+  display: block;
+  margin-top: 60px;
+  margin-left: 64px;
+  padding: 24px 0;
+  @include roboto_condensed;
+  color: $color-default-white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  box-sizing: border-box;
+  background: transparent;
+  cursor: pointer;
+  outline: 4px solid #ffffff;
+  border: none;
+
+  @include tablet-width {
+    width: 183px;
+    margin-top: 40px;
+    margin-left: 115px;
+  }
+
+  @include mobile-width {
+    margin-top: 30px;
+    width: 290px;
+  }
+}
+
+.head-buttom__main-name {
+  position: relative;
+  max-width: 298px;
+  font-size: 92px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: end;
+
+  @include tablet-width {
+    font-size: 72px;
+  }
+  @include mobile-width {
+    margin-left: 107px;
+  }
+  &::after {
+    content: "Тренажёрный зал Групповые занятия Кардио-зона";
+    display: block;
+    width: 113px;
+    height: 51px;
+    @include roboto_condensed;
+    position: absolute;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    top: 126px;
+    left: -50px;
+
+    @include tablet-width {
+      top: 98px;
+      left: 0px;
+    }
+    @include mobile-width {
+      top: 77px;
+      left: 26px;
+    }
+  }
+}
+
+.head-buttom__image img {
+  width: 500px;
+  height: 556px;
+  margin-right: 46px;
+  @include tablet-width {
+    width: 324px;
+    height: 390px;
+    margin-right: 0;
+    margin-top: 25px;
+  }
+  @include mobile-width {
+    display: none;
+  }
+}

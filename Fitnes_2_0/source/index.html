@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Описание проекта">
+  <title>Supergym</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preload" href="./fonts/alumni_sans/alumnisans-semibold.woff2" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="./fonts/roboto_condensed/robotocondensed.woff2" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="./fonts/roboto_condensed/robotocondensedbold.woff2" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="./fonts/roboto_condensed/robotocondensedlight.woff2" as="font" crossorigin="anonymous" />
+</head>
+
+<body class="container">
+  <header class="main-header">
+    <div class="head-top">
+      <a class="head-top__logo" href="index.html">SUPERGYM</a>
+      <a class="head-top__phone" href="tel:8-800-555-55-55">8-800-555-55-55</a>
+    </div>
+    <div class="head-buttom">
+      <div class="head-buttom__box-outer">
+        <p class="head-buttom__city">ОМСК</p>
+        <h1 class="head-buttom__main-name">ФИТНЕС ЦЕНТР</h1>
+        <button class="head-buttom__button" href="#">Купить абонемент</button>
+      </div>
+      <div class="head-buttom__image">
+        <img src="img/preview-man.jpg" srcset="img/preview-man-2.jpg 2x" alt="Мужчина." width="500" height="556" />
+      </div>
+    </div>
+  </header>
+  <main class="main-container">
+    <section class="preview">
+      <div class="preview__part">
+        <h2 class="preview__name">Тренажерный зал</h2>
+        <p class="preview__area">Просторный зал площадью 900 кв/м</p>
+        <p class="preview__description">Supergym – самый большой фитнес центр за Уралом и идеальное место для
+          укрепления тела и здоровья. Тренажерный зал оснащен всем необходимым современным оборудованием для всех
+          спортсменов.</p>
+        <p class="preview__description preview__description--disappears">В зале расположены отдельная зона для
+          Crossfit и кардио-зона с 40 тренажерами. Также в фитнес центре есть несколько оборудованных залов для
+          различных видов групповых занятий. </p>
+      </div>
+      <div class="preview__part-two">
+        <div class="preview__image">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/photo-gym.jpg, img/photo-gym-2.jpg 2x">
+            <source media="(min-width: 768px)" srcset="img/photo-gym-tablet.jpg, img/photo-gym-tablet-2.jpg 2x">
+            <img src="img/photo-gym-mobile.jpg" srcset="img/photo-gym-mobile-2.jpg 2x" alt="Фото зала." width="320"
+              height="313" />
+          </picture>
+        </div>
+        <div class="preview__video">
+          <div class="preview__union">
+            <picture>
+              <source media="(min-width: 768px)" srcset="img/gym-video.png, img/gym-video-2.png 2x">
+              <img src="img/gym-video-mobile.png" srcset="img/gym-video-mobile-2.png 2x" alt="Видео зала." width="320"
+                height="167" />
+            </picture>
+          </div>
+          <div class="preview__button-link">
+            <a class="preview__button-href" href="https://www.youtube.com/watch?v=9TZXsZItgdw">
+              <img src="img/svg/play.svg" alt="Смотреть видео." width="100" height="100" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="component-demo" data-tabs="element">
+      <h2 class="subtitle">Пример с data-height="max"</h2>
+      <div class="tabs no-transition-global" data-tabs="parent" data-delay="300" data-height="max">
+        <div class="tabs__controls" data-tabs="controls">
+          <button class="tabs__control btn" type="button" data-tabs="control">Таб 1</button>
+          <button class="tabs__control btn" type="button" data-tabs="control">Таб 2</button>
+          <button class="tabs__control btn" type="button" data-tabs="control">Таб 3</button>
+          <button class="tabs__control btn" type="button" data-tabs="control">Таб 4</button>
+        </div>
+        <div class="tabs__content" data-tabs="content">
+          <div class="tabs__element" data-tabs="element">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab pariatur dolor alias
+              debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam laboriosam totam vel
+              error dicta et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab pariatur
+              dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam laboriosam
+              totam vel error dicta et.Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab
+              pariatur dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam
+              laboriosam totam vel error dicta et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+              perspiciatis! Ab pariatur dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet
+              inventore illum ullam laboriosam totam vel error dicta et.</p>
+          </div>
+          <div class="tabs__element" data-tabs="element">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab pariatur dolor alias
+              debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam laboriosam totam vel
+              error dicta et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab pariatur
+              dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam laboriosam
+              totam vel error dicta et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab
+              pariatur dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam
+              laboriosam totam vel error dicta et.</p>
+          </div>
+          <div class="tabs__element" data-tabs="element">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab pariatur dolor alias
+              debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam laboriosam totam vel
+              error dicta et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab pariatur
+              dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam laboriosam
+              totam vel error dicta et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab
+              pariatur dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam
+              laboriosam totam vel error dicta et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+              perspiciatis! Ab pariatur dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet
+              inventore illum ullam laboriosam totam vel error dicta et.Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Alias, perspiciatis! Ab pariatur dolor alias debitis molestiae reprehenderit tempora
+              ducimus, atque amet inventore illum ullam laboriosam totam vel error dicta et. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Alias, perspiciatis! Ab pariatur dolor alias debitis molestiae reprehenderit
+              tempora ducimus, atque amet inventore illum ullam laboriosam totam vel error dicta et.</p>
+          </div>
+          <div class="tabs__element" data-tabs="element">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab pariatur dolor alias
+              debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam laboriosam totam vel
+              error dicta et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis! Ab pariatur
+              dolor alias debitis molestiae reprehenderit tempora ducimus, atque amet inventore illum ullam laboriosam
+              totam vel error dicta et.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="subscription">
+      <div class="subscription__wrapper">
+        <div class="subscription-period">
+          <h2 class="subscription-period__header">Абонементы</h2>
+          <div class="subscription-period__box">
+            <p class="subscription-period__month subscription-period__month--active">1 месяц</p>
+            <p class="subscription-period__month">6 месяцев</p>
+            <p class="subscription-period__month">12 месяцев</p>
+          </div>
+        </div>
+        <div class="subscription__block">
+          <div class="subscription__card">
+            <p class="subscription__name">С тренером</p>
+            <p class="subscription__quantity">12 занятий</p>
+            <p class="subscription__price">5000 &#8381</p>
+            <a class="subscription__buy" href="#"><button>купить абонемент</button></a>
+          </div>
+        </div>
+        <div class="subscription__card subscription__card--active">
+          <p class="subscription__name">Дневной</p>
+          <p class="subscription__quantity">с 8:00 до 17:00 </p>
+          <p class="subscription__price">1700 &#8381</p>
+          <a class="subscription__buy" href="#"><button>купить абонемент</button></a>
+        </div>
+        <div class="subscription__card">
+          <p class="subscription__name">Полный день</p>
+          <p class="subscription__quantity"> с 8:00 до 22:00 </p>
+          <p class="subscription__price">2700 &#8381</p>
+          <a class="subscription__buy" href="#"><button>купить абонемент</button></a>
+        </div>
+      </div>
+    </section>
+    <section class="promo">
+      <div class="promo-block">
+        <div class="promo-block__union">
+          <div class="promo-block__box">
+            <h2 class="promo-block__title">SUPER GAMES</h2>
+            <div class="promo-block__dates">
+              <div class="promo-block__item">
+                <p class="promo-block__date">Дата</p>
+                <div class="promo-block__text">
+                  <p class="promo-block__number">7</p>
+                  <p class="promo-block__month">Марта 2019</p>
+                </div>
+              </div>
+              <div class="promo-block__item">
+                <p class="promo-block__time">Время</p>
+                <p class="promo-block__number-time">12:00</p>
+              </div>
+            </div>
+          </div>
+          <p class="promo-block__competition">Ежегодные соревнования по CrossFit</p>
+          <a class="promo-block__application" href="#">заполнить заявку</a>
+        </div>
+      </div>
+      <div class="promo-block__image">
+        <img src="img/main-photo-man.jpg" srcset="img/main-photo-man-2.jpg 2x" alt="Продукт.">
+      </div>
+      <div class="promo-trainers" id="coaches">
+
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="advantages__wrapper">
+        <h2 class="advantages__title">Наши преимущества</h2>
+        <ul class="advantages__list">
+          <li class="advantages__item advantages__item--one">
+            <div class="advantages__number">
+              <span class="advantages__discription">900</span>
+              <span class="advantages__termin">кв/м</span>
+            </div>
+            <div class="advantages__text">
+              <p class="advantages__name">Площадь</p>
+              <p class="advantages__relation">Занимайтесь без очередей и толкучки</p>
+            </div>
+          </li>
+          <li class="advantages__item advantages__item--special">
+            <p class="advantages__number-special">100</p>
+            <p class="advantages__name-special">Тренажеров</p>
+            <p class="advantages__discription-special">Современные тренажеры на все группы мышц</p>
+          </li>
+          <li class="advantages__item advantages__item--two">
+            <div class="advantages__number">
+              <span class="advantages__discription">70</span>
+              <span class="advantages__termin">машин</span>
+            </div>
+            <div class="advantages__text">
+              <p class="advantages__name">Собственная парковка</p>
+              <p class="advantages__relation">Вы всегда найдете место для своей машины на нашей парковке</p>
+            </div>
+          </li>
+          <li class="advantages__item advantages__item--three">
+            <div class="advantages__number">
+              <span class="advantages__discription">350</span>
+              <span class="advantages__termin">мест</span>
+            </div>
+            <div class="advantages__text">
+              <p class="advantages__name">Комфорт</p>
+              <p class="advantages__relation">Просторные раздевалки,
+                душевые, фен, Wi-Fi, кулеры</p>
+            </div>
+          </li>
+          <li class="advantages__item advantages__item--four">
+            <div class="advantages__number">
+              <span class="advantages__discription">5+</span>
+              <span class="advantages__termin">лет</span>
+            </div>
+            <div class="advantages__text">
+              <p class="advantages__name">Тренерский опыт</p>
+              <p class="advantages__relation">Добивайтесь своих целей быстрее с профессиональным тренером</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </section>
+    <section class="action">
+      <h2 class="action__title">Акции</h2>
+      <div class="action__block-one">
+        <div clas="action__red">
+          <p class="action__year">Год</p>
+          <p class="action__year-price">4999</p>
+          <p class="action__discription-white">Безлимитный абонемент в тренажерный зал</p>
+          <a class="action__link action__link--white" href="#">подробнее</a>
+        </div>
+        <div clas="action__image">
+          <img src="img/main-girl.jpg" srcset="img/main-girl-2.jpg 2x" alt="Девушка.">
+        </div>
+      </div>
+      <div class="action__block-two">
+        <div class="action__item">
+          <p class="action__name">Месяц бесплатно</p>
+          <p class="action__discription">Приведи друга, получи абонемент в подарок</p>
+          <a class="action__link" href="#">подробнее</a>
+        </div>
+        <div class="action__item">
+          <p class="action__name">Скидка 20%</p>
+          <p class="action__discription">Корпоративный фитнес с командой</p>
+          <a class="action__link" href="#">подробнее</a>
+        </div>
+      </div>
+    </section>
+    <section class="faq">
+      <h2 class="faq__title">Вопросы и ответы</h2>
+    </section>
+    <section class="reviews">
+      <h2 class="reviews__title">Отзывы</h2>
+    </section>
+    <section class="extra">
+      <h2 class="visually-hidden">Заявка и контакты</h2>
+      <div class="extra__application">
+        <form class="extra__send">
+          <h3 class="extra__application-title">Бесплатное занятие </h3>
+          <fieldset class="extra__group">
+            <input class="extra__name" type="text" name="name" placeholder="Имя">
+            <input class="extra__tel" type="tel" name="tel" placeholder="Телефон">
+            <button class="extra__button" type="button">Отправить</button>
+          </fieldset>
+        </form>
+      </div>
+      <div class="extra__contacts">
+        <h3 class="extra__contacts-title">Контакты</h3>
+        <div class="contacts">
+          <div class="contacts-group">
+            <div class="contacts-item">
+              <p class="contacts-name">Адрес:</p>
+              <p class="contacts-discription">г. Омск, ул. 60 лет Октября, 7</p>
+            </div>
+            <div class="contacts-item">
+              <p class="contacts-name">График работы:</p>
+              <p class="contacts-discription">Пн-Вс: с 8:00 до 22:00</p>
+            </div>
+          </div>
+          <div class="contacts-group">
+            <div class="contacts-item">
+              <p class="contacts-name">Телефон:</p>
+              <p class="contacts-discription" href="tel:8-800-555-55-55">8-800-555-55-55</p>
+            </div>
+            <div class="contacts-item">
+              <p class="contacts-name">Email:</p>
+              <a class="contacts-discription">omsk@supergym.ru</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <div class="main-footer__wrapper">
+      <a class="main-footer__logo" href="index.html">SUPERGYM</a>
+      <ul class="pagination">
+        <li class="pagination__item">
+          <a class="main-footer__services" href="#">Услуги</a>
+        </li>
+        <li class="pagination__item">
+          <a class="main-footer__subscriptions" href="#subscriptions">Абонементы</a>
+        </li>
+        <li class="pagination__item">
+          <a class="main-footer__stock" href="#">Акции</a>
+        </li>
+        <li class="pagination__item">
+          <a class="main-footer__coaches" href="#coaches">Тренеры</a>
+        </li>
+        <li class="pagination__item">
+          <a class="main-footer__schedule" href="#">Расписание</a>
+        </li>
+      </ul>
+      <ul class="social">
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <svg class="social__link-vk" width="25" height="25" aria-hidden="true" focusable="false">
+              <use href="img/sprite.svg#logo-vk"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <svg class="social__link-ok" width="25" height="25" aria-hidden="true" focusable="false">
+              <use href="img/sprite.svg#logo-ok"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <svg class="social__link-reddit" width="25" height="25" aria-hidden="true" focusable="false">
+              <use href="img/sprite.svg#logo-reddit"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="./js/main.min.js" defer></script>
+</body>
+
+</html>

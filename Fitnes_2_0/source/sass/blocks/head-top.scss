@@ -1,0 +1,39 @@
+.head-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.head-top__logo {
+  color: $color-default-white;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+
+  @include tablet-width {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  @include mobile-width {
+    font-size: 20px;
+  }
+}
+
+.head-top__phone {
+  color: $color-default-white;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  @include tablet-width {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  @include mobile-width {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
